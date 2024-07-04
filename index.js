@@ -1,4 +1,4 @@
- const colors = require('colors');
+//  const colors = require('colors');
 
 // let app = require('./app');
 
@@ -20,4 +20,14 @@
 //     resp.write("<h1>HII THIS IS MY SERVER</h1>");
 //     resp.end();
 // }).listen(5500);
-console.log("ram".red);
+// console.log("ram".red);
+// console.log("sita".bgRed);
+
+const http = require('http');
+const data = require('./user')
+http.createServer((req, resp)=>{
+resp.writeHead(200,{'Content-Type':'application\json'});
+resp.write(JSON.stringify(data));
+resp.end();
+
+}).listen(5500)
