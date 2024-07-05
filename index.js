@@ -23,11 +23,11 @@
 // console.log("ram".red);
 // console.log("sita".bgRed);
 
-const http = require('http');
-const data = require('./user')
-http.createServer((req, resp)=>{
-resp.writeHead(200,{'Content-Type':'application\json'});
-resp.write(JSON.stringify(data));
-resp.end();
+// const http = require('http');
+// const data = require('./user')
+// http.createServer((req, resp)=>{
+// resp.writeHead(200,{'Content-Type':'application\json'});
+// resp.write(JSON.stringify(data));
+// resp.end();
 
-}).listen(5500)
+// }).listen(500)
