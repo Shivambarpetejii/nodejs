@@ -1,28 +1,28 @@
-const fs = require('fs');
-const path = require('path');
+// const fs = require('fs');
+// const path = require('path');
 
-const dirpath = path.join(__dirname,'files');
+// const dirpath = path.join(__dirname,'files');
 
-const filePath = `${dirpath}/appp2.txt`;
-// creation 
+// const filePath = `${dirpath}/appp2.txt`;
+// // creation 
 
-// fs.writeFileSync(filepath,'this is normal file');
+// // fs.writeFileSync(filepath,'this is normal file');
 
-// read the file
+// // read the file
 
-// fs.readFile(filePath,'utf8',(err,i)=>{
-//     console.log(i);
-// })
+// // fs.readFile(filePath,'utf8',(err,i)=>{
+// //     console.log(i);
+// // })
 
-//update
+// //update
 
-// fs.appendFile(filePath,' hii me bhi aa gya hu',(err)=>{if(!err)console.log("this is update");});
+// // fs.appendFile(filePath,' hii me bhi aa gya hu',(err)=>{if(!err)console.log("this is update");});
 
-// rename
+// // rename
 
-// fs.rename(filePath,`${dirpath}/arr1.txt`,(err)=>{console.log("rename !!");});
+// // fs.rename(filePath,`${dirpath}/arr1.txt`,(err)=>{console.log("rename !!");});
 
-//delete
+// //delete
 
-fs.unlinkSync(filePath);
+// fs.unlinkSync(filePath);
 

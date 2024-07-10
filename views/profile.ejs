@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>profile</title>
+</head>
+<body>
+    <%- include('common/header');%>
+   <h1>hii i am dynamic page for web </h1> 
+   <h1>wellcome <%= user.name %></h1> 
+   <h2>your email  <%=user.email %> </h2> 
+   <h2>your mobile  <%=user.mobile %> </h2> 
+
+   <ul>
+       <% user.skill.forEach((item)=>{ %>
+
+       <li><%= item %></li>
+
+        <% }) %>
+   </ul>
+</body>
+</html>
